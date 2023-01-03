@@ -1,0 +1,503 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.navbar{
+    width: 1171px;
+}
+.catalog{
+    justify-content: space-between;
+    background:#F0F0F4;
+    height: 53px;
+    padding-top: 10px;
+    margin-bottom: 81px;
+    width: 1171px;
+}
+.catalog a{
+    text-decoration: none;
+    color: #2F3035;
+}
+.catalog a:hover{
+    color: #1C62CD;
+    font-size: 22px;
+    border-bottom: 3px solid blue;
+}
+.catalog li{
+    list-style: none;
+    font-size: 20px; 
+}
+.main{
+    height: 400px;
+    width: 1171px;   
+    margin-bottom: 77px; 
+}
+.aksiya{
+    width: 264px;
+    height: 400px;
+    margin-left: 37px;
+    border: 1px solid #CDCDCD;
+}
+.aksiya:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
+    background-color:white;
+}
+.blue{
+    width: 90px;
+    height: 30px;
+    text-transform:uppercase;
+    background:#1C62CD;
+    padding: 5px 20px;
+    color: #FFFFFF;
+}
+.narx{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    color: #1C62CD;
+    margin-left: 54px;
+}
+.aksiya p{
+    margin: 7px 0px 7px 190px;
+    color: #C4C4C4;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;   
+}
+hr{
+    border: 1px solid #C4C4C4;
+    width: 60px;
+    height: 10px;
+    margin-top: -17px;
+    margin-left: 185px;
+    transform: rotate(-15deg);
+}
+.aksiya img{
+    width: 125px;
+    height: 176.69px;
+    margin: 7px 79px 4.31px 61px;
+}
+.aksiya h2{
+    width: 232.78px;
+    height: 43px;
+    color: #2F3035;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;  
+}
+.data{
+    width: 264px;
+    height: 99px;
+    background: #F0F0F4;
+}
+.data  h3{
+    color: #2F3035;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding-top: 26px;   
+}
+.data h4{
+    color: #1C62CD;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;  
+}
+.carousel{
+    width: 870px;   
+}
+.qidiruv{
+    align-items: center;
+    margin-left: 21px;
+}
+.qidiruv h2{
+    width: 204px;
+    height: 47px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right:30px ;
+    font-family: 'SF Pro Display';
+    padding: 11px 26px; 
+}
+.qidiruv h4:hover{
+    height: 47px;
+    font-size: 20px;
+    text-align: center;
+    background: #F0F0F4;
+    font-family: 'SF Pro Display';
+    padding-top: 10px;
+    cursor: pointer;
+}
+.qidiruv h2:hover{
+    height: 47px;
+    font-size: 20px;
+    text-align: center;
+    background: #F0F0F4;
+    font-family: 'SF Pro Display';
+    padding-top: 10px;
+    cursor: pointer;
+}
+.qidiruv h4{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2F3035;
+}
+.qidiruv2{
+    width: 1171px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+.form-control{
+    border: none;
+    background: #F0F0F4;
+    border-radius: 3px;
+}
+.form-control:hover{
+    color: blue;
+    font-size: 18px;
+    box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
+}
+.qidiruv2 .btn-primary{
+    background:#1C62CD;
+    width: 145px;
+    height: 50px;
+    color: #FFFFFF;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+.qidiruv2 button:hover{
+    background: white;
+    color: black;
+    border: 3px solid blue;
+    font-size: 18px;
+    box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
+}
+.product{
+    width: 370px;
+    height: 129px;
+    border: 1px solid #CDCDCD;
+    margin: 15px 30px 15px 0px;
+}
+.product:hover{
+    box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
+    background-color:white;
+    cursor: pointer;
+}
+.product .fa-angle-right{
+    margin-left: -3px;
+}
+.product img{
+    margin-top: 10px;
+    margin-left: 20px ;
+}
+#image06{
+    margin-left: 80px;
+}
+.product h1{
+    color: #2F3035;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    margin: 20px 0px 52px 20px;
+}
+.product p{
+    color: #C4C4C4;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 20px;
+}
+#tovar{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2F3035;
+    margin: 80px 0px 25px 0px;
+}
+.tavar li:hover{
+    background:#cbd9ef;
+    color: black;
+    width: 100px;
+    font-size: 18px;
+    cursor: pointer;
+}    
+.tavar li{
+    list-style: none;
+    margin: 0px 50px 35px 0px;
+    color: #2F3035  ;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+.maxsulot{
+    width: 270px;
+    height: 403px;
+    margin:0px 30px 35px 0px;
+    border: 1px solid #CDCDCD;
+    position: relative;
+}
+.maxsulot:hover{
+    box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
+    background-color:white;
+    cursor: pointer;
+}
+.maxsulot h2{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #2F3035;
+}
+.maxsulot h5{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C62CD;
+    margin-left: 42px;
+}
+.maxsulot img{
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+.maxsulot .fa-heart{
+    position: absolute;
+    right: 18px;
+    top: 16px;
+}
+.maxsulot p{
+    color: #2F3035;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+.maxsulot h1{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2F3035;
+    text-align: center;
+}
+.savatcha{
+    width: 60px;
+    height: 40px;
+    background: #1C62CD;
+    border: none;
+    border-radius: 10px 0px 0px 0px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+.savatcha i{
+    color:black;
+    margin-left: 20px;
+    margin-top: 14px;
+
+}
+.sale{
+    width: 63px;
+    height: 25px;
+    background: #1C62CD;
+
+}
+.sale h3{
+    color:#FFFFFF;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 5px 15px;
+}
+.hammasi{
+    width: 252px;
+    height: 50px;
+    background: #F0F0F4;
+    color: #2F3035;
+    text-align: center;
+    margin-left: 460px;
+    margin-bottom: 86px;
+}
+.raklama{
+    width: 1170px;
+    height: 165px;
+    background: #1C62CD;  
+}
+.raklama2{
+    margin: 33px 46px 19px 71px;
+}
+.raklama h1{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-top: 28px;
+}
+.raklama button{
+    background: #FFFFFF;
+    border: none;
+    width: 284px;
+    height: 57px;
+    color: #2F3035;
+    margin-top: 57px;
+    margin-left: 40px;
+    font-size: 24px;
+}
+#tavarlar2{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2F3035;
+    margin: 72px 0px 19px 0px;
+}
+.footer{
+    background:#F0F0F4;
+    height: 232px;
+    cursor: pointer;
+}
+.footer .send-email{
+    margin: 42px 100px 0px 370px;
+    width: 320px;
+}
+.send-email input{
+    background-color: #FFFFFF;
+    width: 201px;
+    height: 33px;
+    margin-top: 34px;
+}
+.send-email button{
+    width: 109px;
+    height: 33px;
+    margin-top: 34px;
+}
+.table1{
+    margin: 43px 80px 22px 0px;
+}
+.table1 li{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 17px;
+    color: #2F3035;
+    list-style: none;
+    margin-top: 10px;
+}
+.table1 h6{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 12px;
+    color: #48494D;
+    margin: 36px 0px 0px 0px;
+}
+.navbar a{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2F3035;   
+}
+.fa-gauge-high{
+    color:#2F3035;
+    font-size: 43px;   
+}
+.navbar-brand{
+    margin: 50px 50px 46px 0px;
+}
+.nav-second{
+    margin: 52px 50px  46px 0px;
+}
+.nav-three{
+    margin: 52px 50px 45px 0px;
+    
+}
+.nav-drive{
+    margin: 25px 65px 21px 0px;
+}
+.nav-moskva{
+    margin: 52px 60px 47px 0px;
+}
+.fa-location-dot{
+    color:#2F3035;
+    font-size: 24px;
+}
+.nav-heart{
+    font-size: 20px;
+    margin: 55px 10px  45px 0px;
+}
+.fa-user{
+    font-size: 20px;
+    margin: 53px 10px 45px 0px ;
+}
+.nav-cart{
+    font-size: 20px;
+    margin: 55px 10px 44.5px 0px;
+}
+.fa-instagram{
+    font-size: 36px;
+    margin: 80px 0px 0px 0px;
+}
+.fa-telegram{
+    font-size: 36px;
+    margin-left: 30PX;
+    margin-top: 80px;
+}
+.fa-facebook{
+    font-size: 36px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.fa-youtube{
+    font-size: 36px;
+    margin-left: 30px;
+    margin-top: 80px;
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container">
+   <div class="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Магазины</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link nav-second" aria-current="page" href="#">Акции</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-three" href="#">Доставка и оплата</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-drive" href="#"><i class="fa-solid fa-gauge-high"></i> <br> DRIVE MOTO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-moskva" href="#"><i class="fa-solid fa-location-dot"></i>Москва,  ул. Науки  25</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-regular fa-heart nav-heart" ></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-user"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-cart-plus nav-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <div class="catalog flex">
+            <li><a href="#">Квадроциклы</a></li>
+            <li><a href="#">Катера</a></li>
+            <li><a href="#">Гидроциклы</a></li>
+            <li><a href="#">Лодки</a></li>
+            <li><a href="#">Вездеходы</a></li>
+            <li><a href="#">Снегоходы</a></li>
+            <li><a href="#">Двигатели</a></li>
+            <li><a href="#">Запчасти</a></li>
+      </div>
+    
+
+    <div class="main flex">
+      <div class="carusel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                    <img src="https://i.ytimg.com/vi/PQJQNi2t5Rk/maxresdefault.jpg" class="d-block w-100" width="870px" height="400px">
+            </div>
+            <div class="carousel-item">
+                    <img src="https://moto48.ru/images/detailed/48/6c1b9d80-f414-11ea-888b-04d9f5abf39e_6c1b9d82-f414-11ea-888b-04d9f5abf39e.jpeg" class="d-block w-100" width="870px" height="400px">
+            </div>
+            <div class="carousel-item">
+                    <img src="https://yamaha-belarus.by/assets/images/product/waverunners/2019/gp1800/2019-yamaha-gp1800-eu-azure_blue_metallic-action-006.jpg" class="d-block w-100" width="870px" height="400px">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="aksiya">
+        
+       <div class="flex">
+              <div class="blue">акция</div>   <div class="narx">190 000 ₽</div>
+       </div>
+           <p>225 000 ₽</p>
+            <hr>
+       <img src="./imgs/aksiya.png">
+            <h2>Лодочный мотор  <br> Suzuki DF9.9BRS</h2>
+          <div class="data">
+                <h3>Акция действует до</h3>
+                <h4>31.08.2023</h4>
+          </div>
+      </div>
+
+    </div>
+    <div class="qidiruv flex">
+      <h4>Поиск по  номеру</h4>
+      <h2>Поиск по марке</h2>
+      <h4>Поиск по названию товара</h4>
+    </div>
+
+    <form class="d-flex qidiruv2">
+      <input class="form-control" type="search" placeholder="Введите марку ">
+      <button class="btn btn-primary" type="submit">искать</button>
+    </form>
+
+    <div class="products flex">
+      <div class="product"> 
+        <div class="flex flex-row">
+          <div>
+            <h1>Квадроциклы</h1>
+            <p>Подробее <i class="fa-solid fa-angle-right"></i></p>
+          </div>
+          <div>
+            <img src="./imgs/image01.png" width="130.21px" height="100px">
+          </div>
+        </div>
+      
+      </div>
+      <div class="product">
+        <div class="flex">
+          <div>
+            <h1>Гидроциклы</h1>
+            <p>Подробее <i class="fa-solid fa-angle-right"></i></p>
+          </div>
+          <div>
+            <img src="./imgs/image02.png" width="152px" height="81px">
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="flex">
+          <div>
+            <h1>Катера</h1>
+            <p>Подробее <i class="fa-solid fa-angle-right"></i></p>
+          </div>
+          <div>
+            <img src="./imgs/image03.png" width="207px" height="101px">
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="flex">
+          <div>
+            <h1>Снегоходы</h1>
+            <p>Подробее <i class="fa-solid fa-angle-right"></i></p>
+          </div>
+          <div>
+            <img src="./imgs/image04.png" width="165px" height="105px">
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="flex">
+          <div>
+            <h1>Вездеходы</h1>
+            <p>Подробее <i class="fa-solid fa-angle-right"></i></p>
+          </div>
+          <div>
+            <img src="./imgs/image22.png" width="157px" height="101px">
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="flex">
+          <div>
+            <h1>Двигатели</h1>
+            <p>Подробее <i class="fa-solid fa-angle-right"></i> </p>
+          </div>
+          <div>
+            <img id="image06" src="./imgs/image06.png" width="66px" height="113px">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 id="tovar">Популярные товары</h1>
+    <div class="tavar">
+      <div class="flex">
+              <li>запчасти</li>
+              <li>моторы</li>
+              <li>шины </li>
+              <li>электроника</li>
+              <li>инструменты</li>
+              <li>аксессуары </li>
+      </div>
+    </div>
+
+    <div class="maxsulotlar flex">
+      <div class="maxsulot">
+        <i class="fa-regular fa-heart"></i>
+        <img src="./imgs/image11.png" width="200px" height="200px">
+                <p>Водонепроницаемый <br> Рюкзак</p>
+                <h1>9 800 ₽</h1>
+              <div class="savatcha">
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+      </div>
+      <div class="maxsulot">
+        <div class="sale">
+          <h3>SALE</h3>
+        </div>
+        <i class="fa-regular fa-heart"></i>
+        <img src="./imgs/image12.png" width="200px" height="200px">
+          <p>Спасательный жилет BRP <br> Men's Airflow PFD</p>
+          <h1>6 900 ₽</h1>
+          <div class="savatcha">
+            <i class="fa-solid fa-cart-plus"></i>
+          </div>
+      </div>
+      <div class="maxsulot">
+        <i class="fa-regular fa-heart"></i>
+        <img src="./imgs/image13.png" width="200px" height="200px">
+        <p>BRP Audio-Premium <br> System</p>
+          <h1>68 000 ₽</h1>
+          <div class="savatcha">
+            <i class="fa-solid fa-cart-plus"></i>
+          </div>
+      </div>
+      <div class="maxsulot">
+        <div class="sale">
+          <h3>SALE</h3>
+        </div>
+        <i class="fa-regular fa-heart"></i>
+        <img src="./imgs/image14.png" width="200px" height="200px">
+        <p>Спасательное <br>снаряжение</p>
+          <h2>нет в наличии</h2>
+          <h5>Сообщить o поступлении</h5>
+      </div>
+    </div>
+
+    <button class="btn btn-primary hammasi">Показать еще</button>
+
+    <div class="raklama flex">
+        <div class="raklama2 flex">
+          <img src="./imgs/image01.png" width="175px" height="116px" width="152px">
+          <img src="./imgs/image22.png" width="175px" height="113px" width="175px">
+        </div>
+        <h1>CKИДKИ <br>на все запчасти <br>до 70%</h1>
+          <button class="btn btn-primary"> ПОСМОТЕТЬ BCE</button>
+    </div>
+
+    <h1 id="tavarlar2">C этим товаром покупают</h1>
+    <div class="tavar">
+      <div class="flex">
+        <li>запчасти</li>
+        <li>моторы</li>
+        <li>шины </li>
+        <li>электроника</li>
+        <li>инструменты</li>
+        <li>аксессуары </li>
+      </div>
+    </div>
+
+    <div class="maxsulotlar flex">
+      <div class="maxsulot">
+        <div class="sale">
+          <h3>SALE</h3>
+        </div>
+        <i class="fa-regular fa-heart"></i>
+        <img src="./imgs/image31.png" width="200px" height="133.12px">
+        <p>BRP Audio-портативная <br> система</p>
+        <h2>нет в наличии</h2>
+        <h5>Сообщить o поступлении</h5>
+      </div>
+      <div class="maxsulot">
+        
+        <i class="fa-regular fa-heart"></i>
+        <img src="./imgs/image32.png" width="200px" height="142.86px">
+        <p>Garmin Echomap Plus <br> 62cv</p>
+          <h1>9 800 ₽</h1>
+
+          <div class="savatcha">
+            <i class="fa-solid fa-cart-plus"></i>
+          </div>
+      </div>
+      <div class="maxsulot">
+        <div class="sale">
+          <h3>SALE</h3>
+        </div>
+        <i class="fa-regular fa-heart"></i>
+        <img src="./imgs/image33.png" width="180px" height="180px">
+          <p>RF D.E.S.S.TM Key</p>
+          <h2>нет в наличии</h2>
+          <h5>Сообщить o поступлении</h5>
+      </div>
+      <div class="maxsulot">
+        <i class="fa-regular fa-heart"></i>
+        <img src="./imgs/image34.png" width="200px" height="200px">
+        <p>Мужской костюм <br>3мм</p>
+          <h1>7 000 ₽</h1>
+          <div class="savatcha">
+            <i class="fa-solid fa-cart-plus"></i>
+          </div>
+      </div>
+
+    </div>
+   </div>
+
+   </div>
+
+   <div class="footer flex">
+    
+   
+    <form class="send-email">
+       <div>
+         <h6> Подпишитесь на нашу рассылку <br>  и узнавайте o акция быстрее </h6>
+     </div>
+       <div class="col-auto flex">
+         <input type="email" class="form-control" placeholder="Введите ваш e-mail:">
+         <button type="submit" class="btn btn-primary mb-3">Отправить</button>
+       </div>
+       
+     </form>
+
+     <div class="table1">
+       <ul>
+            <li>Infonmation</li>
+            <li>O kampony</li>
+            <li>Kontakt</li>
+            <li>Aksiya</li>
+            <li>Magazine</li>
+       </ul>
+       <h6>Договор оферты</h6>
+     </div>
+     <div class="table1">
+       <ul>
+            <li>Интернет-магазин </li>
+            <li>Доставка и самовывоз </li>
+            <li>Оплата</li>
+            <li>Возврат-обмен</li>
+            <li>Новости</li>
+       </ul>
+             <h6>Политика обработки персональных данных</h6>
+     </div>
+     <div class="contact flex">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+     </div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+</body>
+</html>
